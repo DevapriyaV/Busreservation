@@ -26,7 +26,7 @@ import com.brs.service.IFeedBackService;
 @RestController
 @RequestMapping("rest/api")
 public class FeedBackController {
-	Logger log = Logger.getLogger("BusController");
+	Logger log = Logger.getLogger("FeedbackController");
 	@Autowired
 	IFeedBackService feedbackService;
 

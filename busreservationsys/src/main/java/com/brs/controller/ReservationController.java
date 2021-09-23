@@ -28,7 +28,7 @@ import com.brs.service.IReservationService;
 @RequestMapping("rest/api")
 
 public class ReservationController {
-	Logger log = Logger.getLogger("BusController");
+	Logger log = Logger.getLogger("ReservationController");
 	@Autowired
 	IReservationService reservationService;
 

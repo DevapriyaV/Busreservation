@@ -27,7 +27,7 @@ import com.brs.service.IRouteService;
 @RestController
 @RequestMapping(path = "/route")
 public class RouteController {
-	Logger log = Logger.getLogger("BusController");
+	Logger log = Logger.getLogger("RouteController");
 	@Autowired
 	private IRouteService iRouteService;
 

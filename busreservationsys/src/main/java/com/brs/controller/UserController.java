@@ -24,7 +24,7 @@ import com.brs.service.IUserService;
  **/
 @RestController
 public class UserController {
-	Logger log = Logger.getLogger("BusController");
+	Logger log = Logger.getLogger("UserController");
 	@Autowired
 	private IUserService userservice;
 
