@@ -19,7 +19,7 @@ import com.brs.exceptions.BusNotFoundException;
 import com.brs.repository.IBusRepository;
 import com.brs.service.BusService;
 
-class BusServiceMockitoTest {
+class BusServiceTest {
 
 	@Mock
 	IBusRepository busrepo;

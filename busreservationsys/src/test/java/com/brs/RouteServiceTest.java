@@ -18,7 +18,7 @@ import com.brs.exceptions.RouteNotFoundException;
 import com.brs.repository.IRouteRepository;
 import com.brs.service.RouteService;
 
-class RouteServiceMockitoTest {
+class RouteServiceTest {
 
 	@Mock
 	IRouteRepository routerepo;

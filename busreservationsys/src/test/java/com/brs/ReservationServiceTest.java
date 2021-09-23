@@ -24,7 +24,7 @@ import com.brs.repository.IReservationRepository;
 import com.brs.repository.IUserRepository;
 import com.brs.service.ReservationService;
 
-class ReservationServiceMockitoTest {
+class ReservationServiceTest {
 
 	@Mock
 	IReservationRepository reservationrepo;

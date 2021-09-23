@@ -21,7 +21,7 @@ import com.brs.repository.IUserRepository;
 
 import com.brs.service.UserService;
 
-class UserServiceMockitoTest {
+class UserServiceTest {
 	@Mock
 	IUserRepository userrepo;
 	@InjectMocks

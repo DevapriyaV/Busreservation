@@ -25,7 +25,7 @@ import com.brs.repository.IFeedBackRepository;
 import com.brs.repository.IUserRepository;
 import com.brs.service.FeedBackService;
 
-class FeedBackServiceMockitoTest {
+class FeedBackServiceTest {
 
 	@Mock
 	IFeedBackRepository feedbackrepo;
